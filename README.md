@@ -1,8 +1,12 @@
-# GalleryApp
+# 🖼️ GalleryApp
 
-GalleryApp is a desktop photo and media management application developed with Kotlin and Compose Multiplatform.
+A modern desktop photo and media management application developed with **Kotlin** and **Compose Multiplatform**.
 
-## Features
+GalleryApp allows users to browse, search, organize and manage their photos, albums and media files through a clean and user-friendly desktop interface.
+
+---
+
+## ✨ Features
 
 - 🖼️ View photos in a gallery
 - 🔎 Search photos and media
@@ -11,32 +15,59 @@ GalleryApp is a desktop photo and media management application developed with Ko
 - 📁 Create and manage albums
 - ➕ Add photos to albums
 - ➖ Remove photos from albums without deleting them from the gallery
-- 🎥 Add and play video files
+- 🎬 Add and play video files
 - 🔊 Video playback with volume control
-- 🖼️ View photos in detail
-- 💻 Desktop application interface
+- 🔍 View photos in detail
+- 🖥️ Modern desktop application interface
 
-## Technologies
+---
 
-- Kotlin
-- Compose Multiplatform
-- Compose for Desktop
-- Gradle
-- IntelliJ IDEA / Android Studio
+## 🛠️ Technologies
 
-## Project Structure
+- **Kotlin**
+- **Compose Multiplatform**
+- **JetBrains Compose for Desktop**
+- **Gradle**
+- **Kotlin Coroutines**
 
-The project follows a Compose Multiplatform structure:
+---
 
-- `composeApp` / desktop application – main application interface
-- `shared` – shared resources and application components
-- `composeResources/drawable` – image resources
-- `App.kt` – main GalleryApp interface and application logic
+## 📸 Screenshots
 
-## Purpose
+### Gallery
 
-This project was developed as part of an internship project to practice desktop application development, UI design, media management, and Kotlin programming.
+_Add a screenshot of the Gallery screen here._
 
-## Status
+### Albums
 
-🚧 The project is under development.
+_Add a screenshot of the Albums screen here._
+
+### Media
+
+_Add a screenshot of the Media screen here._
+
+---
+
+## 💻 Download
+
+### Windows
+
+Download the latest Windows version of GalleryApp from the Releases section:
+
+👉 **[Download GalleryApp Compose v1.0.0](../../releases/latest)**
+
+---
+
+## 🚀 Getting Started
+
+### Requirements
+
+- Windows 10 or later
+- JDK compatible with the project
+
+### Run from Source
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Aysegul-hub/GalleryApp-Compose.git
