@@ -34,17 +34,17 @@ GalleryApp allows users to browse, search, organize and manage their photos, alb
 
 ## 📸 Screenshots
 
-### Gallery
+### 🖼️ Gallery
 
-_Add a screenshot of the Gallery screen here._
+![Gallery Screenshot](screenshots/gallery.png)
 
-### Albums
+### 📁 Albums
 
-_Add a screenshot of the Albums screen here._
+![Albums Screenshot](screenshots/albums.png)
 
-### Media
+### 🎬 Media
 
-_Add a screenshot of the Media screen here._
+![Media Screenshot](screenshots/media.png)
 
 ---
 
@@ -52,7 +52,7 @@ _Add a screenshot of the Media screen here._
 
 ### Windows
 
-Download the latest Windows version of GalleryApp from the Releases section:
+Download the latest Windows version of GalleryApp:
 
 👉 **[Download GalleryApp Compose v1.0.0](../../releases/latest)**
 
