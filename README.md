@@ -1,28 +1,42 @@
-This is a Kotlin Multiplatform project targeting Desktop (JVM).
+# GalleryApp
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-    Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-    folder is the appropriate location.
+GalleryApp is a desktop photo and media management application developed with Kotlin and Compose Multiplatform.
 
-### Running the apps
+## Features
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and options:
+- 🖼️ View photos in a gallery
+- 🔎 Search photos and media
+- ☑️ Select multiple media items
+- 🗑️ Delete photos and media with confirmation
+- 📁 Create and manage albums
+- ➕ Add photos to albums
+- ➖ Remove photos from albums without deleting them from the gallery
+- 🎥 Add and play video files
+- 🔊 Video playback with volume control
+- 🖼️ View photos in detail
+- 💻 Desktop application interface
 
-- Desktop app:
-  - Hot reload: `./gradlew :desktopApp:hotRun --auto`
-  - Standard run: `./gradlew :desktopApp:run`
+## Technologies
 
-### Running tests
+- Kotlin
+- Compose Multiplatform
+- Compose for Desktop
+- Gradle
+- IntelliJ IDEA / Android Studio
 
-Use the run button in your IDE's editor gutter, or run tests using Gradle tasks:
+## Project Structure
 
-- Desktop tests: `./gradlew :shared:jvmTest`
+The project follows a Compose Multiplatform structure:
 
----
+- `composeApp` / desktop application – main application interface
+- `shared` – shared resources and application components
+- `composeResources/drawable` – image resources
+- `App.kt` – main GalleryApp interface and application logic
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Purpose
+
+This project was developed as part of an internship project to practice desktop application development, UI design, media management, and Kotlin programming.
+
+## Status
+
+🚧 The project is under development.
